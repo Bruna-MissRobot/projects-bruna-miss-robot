@@ -15,6 +15,10 @@ function mostrarMensagem() {
     }
   }
 
+  setTimeout(() => {
+    mensagem.style.opacity = '0';
+  }, 5000); // desaparece após 5 segundos
+  
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', function (e) {
       e.preventDefault();
@@ -29,4 +33,3 @@ function mostrarMensagem() {
       }
     });
   });
-  
