@@ -13,6 +13,9 @@
     line-height: 1.6;
     scroll-behavior: smooth;
   }
+  .html {
+    scroll-behavior: smooth;
+  }
   
   /* HEADER */
   header {
@@ -144,6 +147,7 @@
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
+    box-shadow: 0 2px 10px rgba(255, 105, 180, 0.4);
     transition: background-color 0.3s, transform 0.3s;
   }
   
@@ -157,7 +161,7 @@
     text-align: center;
     padding: 20px;
     background-color: rgba(26, 0, 31, 0.85);
-    color: #aaa;
+    color: #ccc;
     border-top: 1px solid #330033;
   }
   
@@ -197,4 +201,24 @@
       opacity: 1;
     }
   }
+
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.8em;
+    }
   
+    .container-nav a {
+      margin: 0 8px;
+      font-size: 0.9em;
+    }
+  
+    .container-foto img {
+      width: 160px;
+      height: 160px;
+    }
+  
+    section {
+      margin: 20px 10px;
+      padding: 40px 15px;
+    }
+  }
