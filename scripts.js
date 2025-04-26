@@ -7,7 +7,6 @@ function mostrarMensagem() {
       mensagem.style.fontWeight = 'bold';
       mensagem.style.opacity = '0'; // começa invisível para o fade funcionar
       mensagem.style.transition = 'opacity 1s ease-in-out';
-      
       // força o repaint para garantir o efeito
       void mensagem.offsetWidth;
   
@@ -20,16 +19,33 @@ function mostrarMensagem() {
   }, 5000); // desaparece após 5 segundos
   
   document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener('click', function (e) {
+    link.addEventListener('click', function(e) {
       e.preventDefault();
+      
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
   
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        const offsetTop = target.offsetTop - 20; // ajuste opcional
+      if (targetElement) {
+        const headerHeight = document.querySelector('header').offsetHeight; // Altura do header
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - headerHeight;
+  
         window.scrollTo({
-          top: offsetTop,
+          top: offsetPosition,
           behavior: 'smooth'
         });
       }
     });
   });
+  
+  function mostrarDescricao(texto) {
+    const descricao = document.getElementById('descricao-favicon');
+    descricao.textContent = texto;
+    descricao.style.opacity = '1';
+  }
+  
+  function esconderDescricao() {
+    const descricao = document.getElementById('descricao-favicon');
+    descricao.style.opacity = '0';
+  }
+  AOS.init();
