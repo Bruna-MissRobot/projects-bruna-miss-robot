@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Public Sans", sans-serif;
-}
+  }
 
 body {
   padding-top: 100px;
@@ -255,3 +255,40 @@ footer {
     justify-content: center;
   }
 }
+
+  #btnTop { 
+    position: fixed;
+    bottom: 95px;
+    right: 30px; /* Agora está no lado direito */
+    z-index: 99;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #ff00ff, #8f00ff); /* Gradiente neon */
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.4s, transform 0.3s;
+    animation: pulse 2s infinite alternate;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizando a seta */
+  }
+  
+  #btnTop svg {
+    stroke: white; /* Cor da seta */
+  }
+  
+  #btnTop:hover {
+    transform: scale(1.2); /* Aumentando o botão ao passar o mouse */
+  }
+  
+  /* Animação neon */
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    }
+    100% {
+      box-shadow: 0 0 20px #ff99ff, 0 0 30px #ff99ff, 0 0 40px #ff99ff;
+    }
+  }
