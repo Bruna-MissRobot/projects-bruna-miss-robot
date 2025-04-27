@@ -4,7 +4,7 @@ A página "Miss Robot" é uma interface moderna e interativa criada com HTML5, C
 
 Semântica e Acessibilidade: O HTML5 foi utilizado de forma semântica, com elementos como <header>, <section>, <footer>, <nav>, e <h1> a <h2> para garantir boa estrutura e acessibilidade. Isso ajuda tanto na organização da página quanto na melhoria de SEO.
 Meta Tags: As metas tags definem informações como a descrição, palavras-chave e o autor, o que é importante para o SEO da página.
-Links e Navegação: A página possui links internos que facilitam a navegação entre as seções, como "Sobre", "Habilidades" e "Contato". O uso de links âncoras (`#id`) permite uma navegação fluida e direta para cada seção específica da página.
+Links e Navegação: A página possui links internos que facilitam a navegação entre as seções, como "Sobre", "Habilidades" e "Contato". O uso de links âncoras (#id) permite uma navegação fluida e direta para cada seção específica da página.
 Imagens e Ícones: Ícones representando tecnologias (como HTML, CSS, JavaScript, Python, etc.) são exibidos para destacar as habilidades de Miss Robot. Essas imagens também têm um efeito interativo: ao passar o mouse sobre cada ícone, uma descrição sobre a tecnologia aparece, o que melhora a experiência do usuário.
 
 2. Design e Estilo CSS
