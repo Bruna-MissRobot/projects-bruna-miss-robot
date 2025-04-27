@@ -84,7 +84,7 @@ section {
   margin: 40px auto;
   background-image: url(https://wallpapers.com/images/hd/4k-neon-waves-kztf2l6v2pjdc9uj.jpg);
   border-radius: 20px;
-  scroll-margin-top: 20px; /* ajuste conforme a altura do seu header */
+  scroll-margin-top: 20px;
   
 }
 
@@ -259,7 +259,7 @@ footer {
   #btnTop { 
     position: fixed;
     bottom: 95px;
-    right: 30px; /* Agora está no lado direito */
+    right: 30px; 
     z-index: 99;
     width: 60px;
     height: 60px;
@@ -272,7 +272,7 @@ footer {
     animation: pulse 2s infinite alternate;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centralizando a seta */
+    justify-content: center; 
   }
   
   #btnTop svg {
@@ -280,7 +280,7 @@ footer {
   }
   
   #btnTop:hover {
-    transform: scale(1.2); /* Aumentando o botão ao passar o mouse */
+    transform: scale(1.0); 
   }
   
   /* Animação neon */
