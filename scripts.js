@@ -49,3 +49,25 @@ function mostrarMensagem() {
     descricao.style.opacity = '0';
   }
   AOS.init();
+
+ // Botão Voltar ao Topo
+const btnTop = document.getElementById("btnTop");
+
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btnTop.style.opacity = "1";
+  } else {
+    btnTop.style.opacity = "0";
+  }
+}
+
+btnTop.addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
