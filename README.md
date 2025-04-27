@@ -1,8 +1,10 @@
 🌟 Miss Robot
+
 Miss Robot é uma assistente virtual criada para apresentar habilidades em tecnologia, inteligência artificial, automação e desenvolvimento web.
 Este projeto foi desenvolvido com foco em design moderno, interatividade e animações suaves, proporcionando uma experiência imersiva e elegante.
 
 🔥 Tecnologias Utilizadas
+
 HTML5 — Estruturação do conteúdo
 
 CSS3 — Estilização visual com tema neon/tecnológico
