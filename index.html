@@ -1,132 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Miss Robot - Assistente Virtual especializada em tecnologia, IA e automação.">
+  <meta name="description" content="Miss Robot - Assistente Virtual especializada em tecnologia, IA e automação." />
   <meta name="keywords"
-    content="Assistente Virtual, Inteligência Artificial, Desenvolvimento Web, Automação, Machine Learning">
-  <meta name="author" content="Miss Robot">
+    content="Assistente Virtual, Inteligência Artificial, Desenvolvimento Web, Automação, Machine Learning" />
+  <meta name="author" content="Miss Robot" />
   <title>Miss Robot | Assistente Virtual e IA</title>
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/7917/7917014.png" type="image/png" />
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
-  <div>
-    <header>
-      <div class="container-header">
-        <img src="https://cdn-icons-png.flaticon.com/128/7917/7917014.png" alt="Circuito Esquerdo"
-          class="circuit-icon circuit-left" />
-        <h1>MISS ROBOT</h1>
-        <nav>
-          <div class="container-nav">
-            <a href="#sobre">Sobre</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#contato">Contato</a>
-          </div>
-        </nav>
-      </div>
-    </header>
-  </div>
 
-  <div>
-    <section class="foto-perfil" id="foto-perfil">
-      <div class="container-foto">
-        <img src="https://goo.su/PcTm9L" loading="lazy" alt="Foto de Miss Robot" />
-      </div>
-      <div class="favicons-linha">
-        <img src="https://cdn-icons-png.flaticon.com/128/1051/1051277.png" loading="lazy" alt="HTML"
-          onmouseover="mostrarDescricao('HTML5 - Linguagem de Marcação')" onmouseout="esconderDescricao()" />
-        <img src="https://cdn-icons-png.flaticon.com/128/16020/16020753.png" loading="lazy" alt="CSS"
-          onmouseover="mostrarDescricao('CSS3 - Estilização Visual')" onmouseout="esconderDescricao()" />
-        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" loading="lazy" alt="JavaScript"
-          onmouseover="mostrarDescricao('JavaScript - Programação Para Web Dinâmica')"
-          onmouseout="esconderDescricao()" />
-        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" loading="lazy" alt="Python"
-          onmouseover="mostrarDescricao('Python - Programação Versátil e Poderosa')" onmouseout="esconderDescricao()" />
-        <img src="https://cdn-icons-png.flaticon.com/128/5278/5278402.png" loading="lazy" alt="IA"
-          onmouseover="mostrarDescricao('Inteligência Artificial - Soluções Cognitivas')"
-          onmouseout="esconderDescricao()" />
-        <img src="https://cdn-icons-png.flaticon.com/128/4413/4413242.png" loading="lazy" alt="Automação"
-          onmouseover="mostrarDescricao('Automação de Processos - Eficiência e Produtividade')"
-          onmouseout="esconderDescricao()" />
-        <img src="https://cdn-icons-png.flaticon.com/128/4616/4616734.png" loading="lazy" alt="Machine Learning"
-          onmouseover="mostrarDescricao('Machine Learning - Aprendizado de Máquina')"
-          onmouseout="esconderDescricao()" />
-        <img src="https://cdn-icons-png.flaticon.com/128/14654/14654068.png" loading="lazy" alt="UX/UI"
-          onmouseover="mostrarDescricao('UX/UI Design - Experiência e Interface do Usuário')"
-          onmouseout="esconderDescricao()" />
-        <img src="https://cdn-icons-png.flaticon.com/128/4997/4997543.png" loading="lazy" alt="Dev Web"
-          onmouseover="mostrarDescricao('Desenvolvimento Web - Front-end e Back-end')"
-          onmouseout="esconderDescricao()" />
-      </div>
-      <!-- Aqui aparece a descrição -->
-      <div id="descricao-favicon" class="descricao-favicon"></div>
-  </div>
-  </section>
-  </div>
-
-  <div>
-    <section id="sobre" data-aos="fade-up">
-      <div class="container-sobre">
-        <h2>Sobre</h2>
-        <p>
-          Miss Robot é uma profissional apaixonada por tecnologia, inteligência
-          artificial e inovação. Com foco em soluções automatizadas e interfaces
-          humanas, ajudo empresas a otimizarem seus processos com eficiência e
-          criatividade.
-        </p>
-      </div>
-    </section>
-  </div>
-
-  <div>
-    <section id="habilidades" data-aos="fade-up">
-      <div class="container-habilidades">
-        <h2>Habilidades</h2>
-        <div class="skills">
-          <span>Inteligência Artificial</span>
-          <span>Desenvolvimento Web</span>
-          <span>Automação</span>
-          <span>Machine Learning</span>
-          <span>Python</span>
-          <span>JavaScript</span>
-          <span>UX/UI Design</span>
+  <header>
+    <div class="container-header">
+      <img src="https://cdn-icons-png.flaticon.com/128/7917/7917014.png" alt="Circuito Esquerdo"
+        class="circuit-icon circuit-left" />
+      <h1>MISS ROBOT</h1>
+      <nav>
+        <div class="container-nav">
+          <a href="#sobre">Sobre</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#contato">Contato</a>
         </div>
-      </div>
-    </section>
-  </div>
+      </nav>
+    </div>
+  </header>
 
-  <div>
-    <section id="contato" data-aos="fade-up">
-      <div class="container-contato">
-        <h2>Contato</h2>
-        <p>Entre em contato para colaborações e projetos!</p>
-        <button onclick="mostrarMensagem()">Enviar Mensagem</button>
-        <p id="mensagem" style="margin-top: 10px"></p>
-      </div>
-    </section>
-  </div>
+  <section class="foto-perfil" id="foto-perfil">
+    <div class="container-foto">
+      <img src="https://goo.su/PcTm9L" loading="lazy" alt="Foto de Miss Robot" />
+    </div>
+    <div class="favicons-linha">
+      <img src="https://cdn-icons-png.flaticon.com/128/1051/1051277.png" loading="lazy" alt="HTML"
+        onmouseover="mostrarDescricao('HTML5 - Linguagem de Marcação')" onmouseout="esconderDescricao()" />
+      <img src="https://cdn-icons-png.flaticon.com/128/16020/16020753.png" loading="lazy" alt="CSS"
+        onmouseover="mostrarDescricao('CSS3 - Estilização Visual')" onmouseout="esconderDescricao()" />
+      <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" loading="lazy" alt="JavaScript"
+        onmouseover="mostrarDescricao('JavaScript - Programação Para Web Dinâmica')" onmouseout="esconderDescricao()" />
+      <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" loading="lazy" alt="Python"
+        onmouseover="mostrarDescricao('Python - Programação Versátil e Poderosa')" onmouseout="esconderDescricao()" />
+      <img src="https://cdn-icons-png.flaticon.com/128/5278/5278402.png" loading="lazy" alt="IA"
+        onmouseover="mostrarDescricao('Inteligência Artificial - Soluções Cognitivas')"
+        onmouseout="esconderDescricao()" />
+      <img src="https://cdn-icons-png.flaticon.com/128/4413/4413242.png" loading="lazy" alt="Automação"
+        onmouseover="mostrarDescricao('Automação de Processos - Eficiência e Produtividade')"
+        onmouseout="esconderDescricao()" />
+      <img src="https://cdn-icons-png.flaticon.com/128/4616/4616734.png" loading="lazy" alt="Machine Learning"
+        onmouseover="mostrarDescricao('Machine Learning - Aprendizado de Máquina')" onmouseout="esconderDescricao()" />
+      <img src="https://cdn-icons-png.flaticon.com/128/14654/14654068.png" loading="lazy" alt="UX/UI"
+        onmouseover="mostrarDescricao('UX/UI Design - Experiência e Interface do Usuário')"
+        onmouseout="esconderDescricao()" />
+      <img src="https://cdn-icons-png.flaticon.com/128/4997/4997543.png" loading="lazy" alt="Dev Web"
+        onmouseover="mostrarDescricao('Desenvolvimento Web - Front-end e Back-end')" onmouseout="esconderDescricao()" />
+    </div>
+    <div id="descricao-favicon" class="descricao-favicon"></div>
+  </section>
 
-  <div>
-    <button id="btnTop" title="Voltar ao topo">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="18 15 12 9 6 15"></polyline>
-      </svg>
-    </button>
-  </div>
-</body>
-<div>
+  <section id="sobre" data-aos="fade-up">
+    <div class="container-sobre">
+      <h2>Sobre</h2>
+      <p>
+        Miss Robot é uma profissional apaixonada por tecnologia, inteligência
+        artificial e inovação. Com foco em soluções automatizadas e interfaces
+        humanas, ajudo empresas a otimizarem seus processos com eficiência e
+        criatividade.
+      </p>
+    </div>
+  </section>
+
+  <section id="habilidades" data-aos="fade-up">
+    <div class="container-habilidades">
+      <h2>Habilidades</h2>
+      <div class="skills">
+        <span>Inteligência Artificial</span>
+        <span>Desenvolvimento Web</span>
+        <span>Automação</span>
+        <span>Machine Learning</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>UX/UI Design</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" data-aos="fade-up">
+    <div class="container-contato">
+      <h2>Contato</h2>
+      <p>Entre em contato para colaborações e projetos!</p>
+      <button type="button" onclick="mostrarMensagem()">Enviar Mensagem</button>
+      <p id="mensagem" style="margin-top: 10px;"></p>
+    </div>
+  </section>
+
+  <button id="btnTop" title="Voltar ao topo">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
   <footer>
     <div class="container-footer">
       <p>&copy; 2025 Miss Robot. Todos os direitos reservados.</p>
     </div>
   </footer>
-</div>
-<script src="scripts.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
 </html>
