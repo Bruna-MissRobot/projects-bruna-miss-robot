@@ -1,21 +1,21 @@
 📂 Projects - Bruna Miss Robot
 
-Repositório com projetos desenvolvidos por **Bruna ("Miss Robot")**, composto por exemplos, estudos e aplicações pessoais para aprendizagem. 
+Repository with projects developed by **Bruna ("Miss Robot")**, composed of examples, studies and personal applications for learning. 
 
 ---
 
-📋 Estrutura do repositório
+📋 Repository structure
 
-- `Projeto Miss Robot Virtual Assistant/` – Interface moderna e interativa criada com HTML5, CSS3 e JavaScript, com o objetivo de apresentar uma assistente virtual especializada em tecnologia, Inteligência Artificial (IA), automação e desenvolvimento web.
-- `Estrutura, Design e Estilo CSS e JavaScript/` – Semântica e Acessibilidade, Links e Navegação; Layout Responsivo, Estilos Modernos; Interatividade com JavaScript
-- `scripts/` – Ferramentas utilitárias: JS | Visual Studio Code.
+- `Project Miss Robot Virtual Assistant/` – Modern and interactive interface created with HTML5, CSS3 and JavaScript, with the aim of presenting a virtual assistant specialized in technology, Artificial Intelligence (AI), automation and web development.
+- `Structure, Design and Style CSS and JavaScript/` – Semantics and Accessibility, Links and Navigation; Responsive Layout, Modern Styles; Interactivity with JavaScript.
+- `scripts/` – Utility Tools: JS | Visual Studio Code.
   
 ---
 
-🛠 Tecnologias
+🛠 Technologies
 
-- Linguagens: HTML5, CSS, JavaScript.
-- Frameworks/Bibliotecas: React.
-- Outras: Docker, CI/CD, testes (Jest/Mocha), etc.
+- Languages: HTML5, CSS, JavaScript.
+- Frameworks/Libraries: React.
+- Others: Docker, CI/CD, testing (WordPress/wix).
 
 ---
