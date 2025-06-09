@@ -16,6 +16,6 @@ Repository with projects developed by **Bruna ("Miss Robot")**, composed of exam
 
 - Languages: HTML5, CSS, JavaScript.
 - Frameworks/Libraries: React.
-- Others: Docker, CI/CD, testing (WordPress/wix).
+- Others: Docker, CI/CD, testing (WordPress/Wix).
 
 ---
